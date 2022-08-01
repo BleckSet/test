@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <header class="header_kit">
+  <nav class="header_inner_kit">
+    <li><a href="#"> Контрагентам   </a></li>
+    <li><a href="#"> Дизайнерам   </a></li>
+    <li><a href="#"> Вакансии   </a></li>
+    <li class="header_logo_kit"><a href="index.html">  <img src="img/header/logo.svg" alt="">  </a></li>
+    <li class="header_icon1_kit"><a href="#">  <img src="img/header/search.svg" alt="" > Поиск </a></li>
+    <li><a href="#">  Вход/Регистрация  </a></li>
+    <div class="heart_kit"><li><a href="#"><img src="img/header/pers.svg"alt=""class="header_icon"></li> <li><a href="#"><img src="img/header/heart.svg"alt=""class="header_icon_kit">   </a></li></div>
+
+  </nav>
+</header>
+<nav class="navbar_burger">
+    <div class="container">
+      <div class="navbar_wrap">
+
+          <a href="#" class="header_logo" id="logo"> <img src="img/header/logo.svg" alt=""> </a>
+          <div class="hamb">
+            <div class="hamb_field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        <ul class="menu" id="menu">
+          <li><a href="#"> Контрагентам </a></li>
+          <li><a href="#"> Дизайнерам </a></li>
+          <li><a href="#"> Вакансии </a></li>
+
+          <li ><a href="#"> <img src="img/header/search.svg" alt=""> Поиск </a></li>
+          <li><a href="#"> Вход/Регистрация </a></li>
+          <li class="line_header"></li>
+          <div class="header_img">
+
+          <li><a href="#"><img src="img/header/pers.svg"alt=""></li> <li><a href="#"><img src="img/header/heart.svg"alt="">   </a></li>
+        </div>
+<li class="line_header"></li>
+          <div class="header_img_last">
+                <li>  <a href=""><img src="img/header/YT.svg" alt=""></a>  </li>
+                  <li>  <a href=""><img src="img/header/vk.svg" alt=""></a>  </li>
+                <li>  <a href="">  <img src="img/header/FB.svg" alt=""></a>  </li>
+                  <li>  <a href=""><img src="img/header/TG.svg" alt=""></a>  </li>
+                  <li>  <a href=""><img src="img/header/E.svg" alt=""></a>  </li>
+              </div>
+        </ul>
+    </div>
+  </nav>
+  <div class="popup" id="popup"></div>
+
+
+  <div class="wrapper_catalog">
+    <div class="container">
+    <section class="catalog_p1">
+      <div class="catalog_p1_filtr">
+        <div class="catalog_p1_filtr_info">
+          <div class="dropdown">
+
+            <button class="dropbtn" type="button" data-path="one"> Бренд
+              <img src="img/catalog/swipe.svg" class="arrow" alt="">
+            </button>
+
+            <div class="dropdown-content" data-target="one">
+              <form action="" method="post">
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-1">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-1">
+                    <span class="check_box"></span>
+                    Versacci </label>
+                </div>
+
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-2">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-2">
+                    <span class="check_box"></span>
+                    Trebbo </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-3">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-3">
+                    <span class="check_box"></span>
+                    Jewelry for you family </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-4">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-4">
+                    <span class="check_box"></span>
+                    VIP ghoret </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-5">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-5">
+                    <span class="check_box"></span>
+                    Dolce & Gabanna</label>
+                </div>
+                <div class="dropdown-items_btn_filtr">
+                  <button type="reset" class="clear" name="button">Очистить</button>
+                  <button type="button" class="search" name="button">Показать</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="catalog_p1_filtr_info">
+          <div class="dropdown">
+
+            <button class="dropbtn" data-path="two"> <span>Цена</span>
+              <img src="img/catalog/swipe.svg" class="arrow" alt="">
+            </button>
+            <div class="dropdown-content" data-target="two" id="myDropdown">
+              <form action="" method="post" class="catalog_price">
+                <label for="" class="prise">
+                  <p>От</p>
+
+                  <input type="number" name="" value="" placeholder="10"> <span>Тыс. руб.</span>
+                </label>
+                <label for="" class="prise">
+                  <p>До</p>
+
+                  <input type="number" name="" value="" placeholder="1 000"> <span>Тыс. руб.</span>
+                </label>
+                <label class="dropdown-items_btn_price">
+                  <button type="reset" class="clear" name="button">Очистить</button>
+                  <button type="button" class="search" name="button">Показать</button>
+                </label>
+
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="catalog_p1_filtr_info">
+          <div class="dropdown">
+
+            <button class="dropbtn" type="button" data-path="three"> Для кого
+              <img src="img/catalog/swipe.svg" class="arrow" alt="">
+            </button>
+
+            <div class="dropdown-content" data-target="three">
+              <form action="" method="post">
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-1.2">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-1.2">
+                    <span class="check_box"></span>
+
+                    Lorem ipsum dolor. </label>
+                </div>
+
+
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-2.2">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-2.2">
+                    <span class="check_box"></span>
+                    Lorem ipsum. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-3.2">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-3.2">
+                    <span class="check_box"></span>
+                    Lorem. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-4.2">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-4.2">
+                    <span class="check_box"></span>
+                    Lorem ipsum dolor. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-5.2">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-5.2">
+                    <span class="check_box"></span>
+                    Lorem ipsum.</label>
+                </div>
+                <div class="dropdown-items_btn_filtr">
+                  <button type="reset" class="clear" name="button">Очистить</button>
+                  <button type="button" class="search" name="button">Показать</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="catalog_p1_filtr_info">
+          <div class="dropdown">
+
+            <button class="dropbtn" type="button" data-path="four"> Коллекция
+              <img src="img/catalog/swipe.svg" class="arrow" alt="">
+            </button>
+
+            <div class="dropdown-content" data-target="four">
+              <form action="" method="post">
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-1.3">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-1.3">
+                    <span class="check_box"></span>
+
+                    Lorem ipsum dolor. </label>
+                </div>
+
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-2.3">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-2.3">
+                    <span class="check_box"></span>
+                    Lorem ipsum. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-3.3">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-3.3">
+                    <span class="check_box"></span>
+                    Lorem. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-4.3">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-4.3">
+                    <span class="check_box"></span>
+                    Lorem ipsum dolor. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-5.3">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-5.3">
+                    <span class="check_box"></span>
+                    Lorem ipsum.</label>
+                </div>
+                <div class="dropdown-items_btn_filtr">
+                  <button type="reset" class="clear" name="button">Очистить</button>
+                  <button type="button" class="search" name="button">Показать</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="catalog_p1_filtr_info">
+          <div class="dropdown">
+
+            <button class="dropbtn" type="button" data-path="five">Сезон
+              <img src="img/catalog/swipe.svg" class="arrow" alt="">
+            </button>
+
+            <div class="dropdown-content" data-target="five">
+              <form action="" method="post">
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-1.4">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-1.4">
+                    <span class="check_box"></span>
+
+                    Lorem ipsum dolor. </label>
+                </div>
+
+
+                  <div class="dropdown-items">
+                    <label class="check" for="checkbox-2.4">
+                      <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-2.4">
+                      <span class="check_box"></span>
+                      Lorem ipsum. </label>
+                  </div>
+                    <div class="dropdown-items">
+                    <label class="check" for="checkbox-3.4">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-3.4">
+                    <span class="check_box"></span>
+                    Lorem. </label>
+                  </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-4.4">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-4.4">
+                    <span class="check_box"></span>
+                    Lorem ipsum dolor. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-5.4">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-5.4">
+                    <span class="check_box"></span>
+                    Lorem ipsum.</label>
+                </div>
+                <div class="dropdown-items_btn_filtr">
+                  <button type="reset" class="clear" name="button">Очистить</button>
+                  <button type="button" class="search" name="button">Показать</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+        <div class="catalog_p1_filtr_info">
+          <div class="dropdown">
+
+            <button class="dropbtn" type="button" data-path="six"> Событие
+              <img src="img/catalog/swipe.svg" class="arrow" alt="">
+            </button>
+
+            <div class="dropdown-content" data-target="six">
+              <form action="" method="post">
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-1.5">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-1.5">
+                    <span class="check_box"></span>
+
+                    Lorem ipsum dolor. </label>
+                </div>
+
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-2.5">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-2.5">
+                    <span class="check_box"></span>
+                    Lorem ipsum. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-3.5">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-3.5">
+                    <span class="check_box"></span>
+                    Lorem. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-4.5">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-4.5">
+                    <span class="check_box"></span>
+                    Lorem ipsum dolor. </label>
+                </div>
+                <div class="dropdown-items">
+                  <label class="check" for="checkbox-5.5">
+                    <input class="check_input" type="checkbox" name="checkbox_group" value="" id="checkbox-5.5">
+                    <span class="check_box"></span>
+                    Lorem ipsum.</label>
+                </div>
+                <div class="dropdown-items_btn_filtr">
+                  <button type="reset" class="clear" name="button">Очистить</button>
+                  <button type="button" class="search" name="button">Показать</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+    <section class="catalog_p2">
+      <div class="catalog_p2_container">
+        <div class="catalog_p2_items">
+          <img src="img/catalog/sale.jpg" alt="">
+          <div class="catalog_p2_items_subtitle">
+            <span>
+              Подвеска
+            </span>
+          </div>
+          <div class="catalog_p2_items_title">
+            <span>Dolce & Gabana</span>
+          </div>
+          <div class="catalog_p2_items_btn">
+            <a href="tovar.html"><span>175 000</span></a>
+          </div>
+        </div>
+
+        <div class="catalog_p2_items">
+          <img src="img/catalog/sale.jpg" alt="">
+          <div class="catalog_p2_items_subtitle">
+            <span>
+              Подвеска
+            </span>
+          </div>
+          <div class="catalog_p2_items_title">
+            <span>Dolce & Gabana</span>
+          </div>
+          <div class="catalog_p2_items_btn">
+            <a href="tovar.html"><span>175 000</span></a>
+          </div>
+        </div>
+
+        <div class="catalog_p2_items">
+          <img src="img/catalog/sale.jpg" alt="">
+          <div class="catalog_p2_items_subtitle">
+            <span>
+              Подвеска
+            </span>
+          </div>
+          <div class="catalog_p2_items_title">
+            <span>Dolce & Gabana</span>
+          </div>
+          <div class="catalog_p2_items_btn">
+            <a href="tovar.html"><span>175 000</span></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="catalog_p2_container">
+        <div class="catalog_p2_items">
+          <img src="img/catalog/sale.jpg" alt="">
+          <div class="catalog_p2_items_subtitle">
+            <span>
+              Подвеска
+            </span>
+          </div>
+          <div class="catalog_p2_items_title">
+            <span>Dolce & Gabana</span>
+          </div>
+          <div class="catalog_p2_items_btn">
+            <a href="tovar.html"><span>175 000</span></a>
+          </div>
+        </div>
+
+        <div class="catalog_p2_items">
+          <img src="img/catalog/sale.jpg" alt="">
+          <div class="catalog_p2_items_subtitle">
+            <span>
+              Подвеска
+            </span>
+          </div>
+          <div class="catalog_p2_items_title">
+            <span>Dolce & Gabana</span>
+          </div>
+          <div class="catalog_p2_items_btn">
+            <a href="tovar.html"><span>175 000</span></a>
+          </div>
+        </div>
+
+        <div class="catalog_p2_items">
+          <img src="img/catalog/sale.jpg" alt="">
+          <div class="catalog_p2_items_subtitle">
+            <span>
+              Подвеска
+            </span>
+          </div>
+          <div class="catalog_p2_items_title">
+            <span>Dolce & Gabana</span>
+          </div>
+          <div class="catalog_p2_items_btn">
+            <a href="tovar.html"><span>175 000</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog_more ">
+
+        <div class="catalog_more_content" data-target="more-info">
+          <div class="catalog_p2_container">
+            <div class="catalog_p2_items">
+              <img src="img/catalog/sale.jpg" alt="">
+              <div class="catalog_p2_items_subtitle">
+                <span>
+                  Подвеска
+                </span>
+              </div>
+              <div class="catalog_p2_items_title">
+                <span>Dolce & Gabana</span>
+              </div>
+              <div class="catalog_p2_items_btn">
+                <a href="tovar.html"><span>175 000</span></a>
+              </div>
+            </div>
+
+            <div class="catalog_p2_items">
+              <img src="img/catalog/sale.jpg" alt="">
+              <div class="catalog_p2_items_subtitle">
+                <span>
+                  Подвеска
+                </span>
+              </div>
+              <div class="catalog_p2_items_title">
+                <span>Dolce & Gabana</span>
+              </div>
+              <div class="catalog_p2_items_btn">
+                <a href="tovar.html"><span>175 000</span></a>
+              </div>
+            </div>
+
+            <div class="catalog_p2_items">
+              <img src="img/catalog/sale.jpg" alt="">
+              <div class="catalog_p2_items_subtitle">
+                <span>
+                  Подвеска
+                </span>
+              </div>
+              <div class="catalog_p2_items_title">
+                <span>Dolce & Gabana</span>
+              </div>
+              <div class="catalog_p2_items_btn">
+                <a href="tovar.html"><span>175 000</span></a>
+              </div>
+            </div>
+
+          </div>
+          <div class="catalog_p2_container">
+            <div class="catalog_p2_items">
+              <img src="img/catalog/sale.jpg" alt="">
+              <div class="catalog_p2_items_subtitle">
+                <span>
+                  Подвеска
+                </span>
+              </div>
+              <div class="catalog_p2_items_title">
+                <span>Dolce & Gabana</span>
+              </div>
+              <div class="catalog_p2_items_btn">
+                <a href="tovar.html"><span>175 000</span></a>
+              </div>
+            </div>
+
+            <div class="catalog_p2_items">
+              <img src="img/catalog/sale.jpg" alt="">
+              <div class="catalog_p2_items_subtitle">
+                <span>
+                  Подвеска
+                </span>
+              </div>
+              <div class="catalog_p2_items_title">
+                <span>Dolce & Gabana</span>
+              </div>
+              <div class="catalog_p2_items_btn">
+                <a href="tovar.html"><span>175 000</span></a>
+              </div>
+            </div>
+
+            <div class="catalog_p2_items">
+              <img src="img/catalog/sale.jpg" alt="">
+              <div class="catalog_p2_items_subtitle">
+                <span>
+                  Подвеска
+                </span>
+              </div>
+              <div class="catalog_p2_items_title">
+                <span>Dolce & Gabana</span>
+              </div>
+              <div class="catalog_p2_items_btn">
+                <a href="tovar.html"><span>175 000</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" name="button" class="more_info" data-path="more-info"><span class="more_info_txt">Покажите еще</span></button>
+      </div>
+      <div class="container_catalog_info">
+        <div class="catalog_info_main">
+          <p class="more_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, lorem eu commodo porttitor erat. Amet mauris cursus bibendum in egestas. Nulla porttitor amet quam elit, mauris. Tortor egestas dignissim augue suspendisse
+            rutrum pretium lobortis dolor. Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.
+            Commodo sagittis at amet faucibus faucibus id. Bibendum placerat convallis gravida eu quisque et augue. Sed dignissim amet ut vitae at ornare sed.<span id="dots">...</span><span id="more">Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Voluptatum, laborum beatae harum iusto. Omnis repudiandae, tempore ullam dicta! Delectus nisi, doloribus exercitationem illo enim deleniti sequi, ipsum qui. Excepturi enim nemo aspernatur ipsam suscipit voluptatem
+              praesentium nam doloremque ratione accusamus fugiat ut fugit, voluptas optio architecto reiciendis, temporibus doloribus adipisci ullam distinctio obcaecati, magnam tempora! Illum id cumque alias at nulla ipsa quidem recusandae iure
+              ipsum eos reprehenderit debitis doloremque a, rem blanditiis maiores necessitatibus fuga maxime qui? Illum, maiores ipsam autem error sed ab mollitia? Deserunt quisquam ullam accusantium voluptas earum ea ab. Dolore accusantium magnam
+              deserunt optio inventore?</span></p>
+
+          <button onclick="myFunction()" id="myBtn">Читать полностю</button>
+        </div>
+        <div class="catalog_info_second">
+          <div class="catalog_info_second_items">
+            <img src="img/catalog/1.svg" alt="">
+            <p>Бесплатная доставка</p>
+          </div>
+          <div class="catalog_info_second_items"><img src="img/catalog/2.svg" alt="">
+            <p>Индивидуальный дизайн</p>
+          </div>
+          <div class="catalog_info_second_items"><img src="img/catalog/3.svg" alt="">
+            <p>Бесплатная примерка</p>
+          </div>
+          <div class="catalog_info_second_items"><img src="img/catalog/4.svg" alt="">
+            <p>Личный подход</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+<footer>
+  <div class="footer_bg">
+  <div class="container">
+  <section class="footer_main">
+
+    <div class="footer_main_title">
+      <span>Полезные советы и персональный предложения</span>
+
+    </div>
+    <div class="footer_main_subtitle">
+      <span>Эксклюзивная рассылка</span>
+
+    </div>
+    <div class="footer_main_info">
+    <div class="footer_send">
+      <div class="footer_send_info_text">
+        <div class="footer_send_text">
+          <img src="img/footer/Union.svg">
+          <span>Личный менеджер</span>
+        </div>
+
+        <div class="footer_send_text">
+          <img src="img/footer/Union.svg">
+          <span>Доставка и оформление</span>
+        </div>
+        <div class="footer_send_text">
+          <img src="img/footer/Union.svg" alt="">
+          <span>Индивидуальный дизайн</span>
+        </div>
+</div>
+  </div>
+
+      <div class="footer_send_info">
+
+
+        <div class="footer_send_buton">
+          <div class="footer_form">
+            <form class="" action="index.html" method="post">
+              <input type="email" name="" value="" placeholder="вашь e-mail">
+            </form>
+          </div>
+          <div class="footer_button">
+            <button type="submit" name="button"> Отправить</button>
+          </div>
+        </div>
+      </div>
+</div>
+  </section>
+    </div>
+  </div>
+
+  <div class="container">
+  <section class="footer_info">
+    <div class="footer_info_main">
+      <div class="footer_info_main_tittle">
+      <span>Полезные ссылки</span></div>
+      <div class="footer_info_main_text">
+      <p><a href="#">Доставка</a></p>
+        <p><a href="#">Оплата </a></p>
+          <p><a href="#">Акции</a></p>
+            <p><a href="#">Политика конфиденциальности</a></p>
+</div>
+    </div>
+    <div class="footer_info_main">
+      <div class="footer_info_main_tittle">
+      <span>оплата</span></div>
+      <div class="footer_card_info">
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</span></div>
+        <div class="footer_card_info_img">
+          <img src="img/footer/visa.png" alt="">
+          <img src="img/footer/mastercard.png" alt="">
+        </div>
+
+    </div>
+    <div class="footer_info_main">
+      <div class="footer_info_main_tittle">
+      <span>контакты</span></div>
+      <div class="footer_info_contacts">
+      <div class="footer_contacts">
+        <img src="img/footer/phone.svg" alt="">
+      <p><a href="tel:+88122345655">8 (812) 234-56-55</a></p>
+      </div>
+      </div>
+        <div class="footer_contacts">
+            <img src="img/footer/phone.svg" alt="">
+        <p><a href="tel:+88122345655">8 (812) 234-56-55 </a></p>
+        </div>
+            <div class="footer_contacts">
+                <img src="img/footer/mail.svg" alt="">
+          <p><a href="mailto:ojjo@ojjo.ru">ojjo@ojjo.ru</a></p>
+            </div>
+
+    </div>
+    <div class="footer_info_main">
+      <div class="footer_info_main_tittle">
+      <span>социальные сети</span></div>
+      <div class="footer_card_info">
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper justo, nec, pellentesque.</span></div>
+
+    <div class="footer_info_social_img">
+      <img src="img/footer/YT.svg" alt="">
+      <img src="img/footer/vk.svg" alt="">
+      <img src="img/footer/FB.svg" alt="">
+      <img src="img/footer/TG.svg" alt="">
+      <img src="img/footer/E.svg" alt="">
+    </div>
+    </div>
+
+      </section>
+      <div class="footer_outline"></div>
+    <div class="footer_last">
+      <div class="footer_last_txt"><span>(c) 2020 OJJO jewelry</span></div>
+      <div class="footer_last_txt"><span>Договор публичной офферты</span></div>
+      <div class="footer_last_txt"><span>Контрагентам</span></div>
+      <div class="footer_last_txt"><span>Сделано Figma.info</span></div>
+    </div>
+
+</div>
+</div>
+</footer>
+</div>
+
+</div>
+  <script src="js/main.js"></script>
+  <script src="js/jquery-3.6.0.slim.min.map"></script>
+</body>
+
+</html>
